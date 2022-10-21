@@ -1,0 +1,10 @@
+.v2ex-comment-markdown {
+  // 样式隔离
+  @import 'highlight.js/styles/github';
+  @import 'github-markdown-css/github-markdown';
+  // 如果有 css 后缀，将无法生成嵌套
+  p {
+    // 保持与 v2 的样式一致, 否则某些评论上下看起来字体不一样
+    font-size: 14px !important;
+  }
+}

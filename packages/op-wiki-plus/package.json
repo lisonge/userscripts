@@ -1,0 +1,17 @@
+{
+  "name": "op-wiki-plus",
+  "version": "1.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "userscript-config": "workspace:*"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}

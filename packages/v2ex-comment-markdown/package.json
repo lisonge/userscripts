@@ -1,0 +1,17 @@
+{
+  "name": "v2ex-comment-markdown",
+  "private": true,
+  "version": "1.1.2",
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "userscript-config": "workspace:*"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}

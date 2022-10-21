@@ -1,0 +1,19 @@
+{
+  "name": "gitrec",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/jquery": "3.5.14",
+    "jquery": "3.6.1",
+    "userscript-config": "workspace:*"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "npmjs-explore",
+  "version": "1.1.0",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "userscript-config": "workspace:*"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}
